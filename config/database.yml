@@ -1,0 +1,11 @@
+default: &default
+  adapter: mysql2
+  username: root
+
+development:
+  <<: *default
+  database: reactjs_demo_development
+
+test:
+  <<: *default
+  database: reactjs_demo_test

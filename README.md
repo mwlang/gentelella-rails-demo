@@ -6,6 +6,6 @@ This is a Rails 5.x project demonstrating the [gentelella-rails](https://github.
 * Most of the theme pages are ported up to the "LIVE ON" section in the sidebar.
 
 ## Theme Demo
-![Gentelella Bootstrap Admin Template](https://github.com/mwlang/gentelella-rails/public/images/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+![Gentelella Bootstrap Admin Template](https://github.com/mwlang/gentelella-rails-demo/blob/master/public/images/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
 
 **[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**

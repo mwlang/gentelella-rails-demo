@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "/index2.html" => "static#index2"
   get "/index3.html" => "static#index3"
   get "/form.html" => "static#form"
+  get "/form_advanced.html" => "static#form_advanced"
   get "/tables.html" => "static#tables"
   get "/tables_dynamic.html" => "static#tables_dynamic"
   get "/general_elements.html" => "static#general_elements"

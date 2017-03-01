@@ -27,4 +27,4 @@ group :development do
 end
 
 gem 'jquery-rails'
-gem 'gentelella-rails', path: "../gentelella-rails"
+gem 'gentelella-rails' #, path: "../gentelella-rails"

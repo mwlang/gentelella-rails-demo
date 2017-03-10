@@ -28,3 +28,4 @@ end
 
 gem 'jquery-rails'
 gem 'gentelella-rails' #, path: "../gentelella-rails"
+gem 'modernizr-rails'

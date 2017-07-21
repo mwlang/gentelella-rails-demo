@@ -6,6 +6,6 @@ This is a collection of Rails examples, starting with Rails 5.0.1 project demons
 * Most of the theme pages are ported up to the "LIVE ON" section in the sidebar.
 
 ## Theme Demo
-![Gentelella Bootstrap Admin Template](https://github.com/mwlang/gentelella-rails-demo/blob/master/public/images/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+![Gentelella Bootstrap Admin Template](https://github.com/mwlang/gentelella-rails-demo/blob/master/examples/shared/public/images/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
 
 **[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**

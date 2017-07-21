@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= csrf_meta_tags %>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%= stylesheet_link_tag 'kitchen8', media: 'all' %>
+    <%= javascript_include_tag :modernizr %>
+
+    <title>Bootstrap Kitchen Sink</title>
+
+  </head>
+
+  <body>
+    <%= yield %>
+    <%= javascript_include_tag 'kitchen' %>
+  </body>
+</html>

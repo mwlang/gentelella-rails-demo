@@ -24,4 +24,6 @@ Rails.application.routes.draw do
   get "/other_charts.html" => "static#other_charts"
   get "/fixed_sidebar.html" => "static#fixed_sidebar"
   get "/fixed_footer.html" => "static#fixed_footer"
+  get "/kitchen_sink" => "static#kitchen_sink"
+  get "/kitchen8_sink" => "static#kitchen8_sink"
 end

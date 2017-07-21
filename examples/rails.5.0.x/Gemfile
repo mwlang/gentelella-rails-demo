@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.0.1'
-gem 'mysql2'
+gem 'sqlite3'
 gem 'puma', '~> 3.0'
 
 gem 'sass-rails', '~> 5.0'
@@ -27,5 +27,5 @@ group :development do
 end
 
 gem 'jquery-rails'
-gem 'gentelella-rails' #, path: "../gentelella-rails"
+gem 'gentelella-rails', path: "../../../gentelella-rails"
 gem 'modernizr-rails'

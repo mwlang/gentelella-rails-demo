@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 
 gem 'jquery-rails'
-gem 'gentelella-rails' #, path: "../gentelella-rails"
+gem 'gentelella-rails', path: "../../../gentelella-rails"
 gem 'modernizr-rails'
 
 group :development, :test do

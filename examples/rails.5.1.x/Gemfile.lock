@@ -1,3 +1,23 @@
+PATH
+  remote: ../../../gentelella-rails
+  specs:
+    gentelella-rails (0.1.5)
+      bootstrap-daterangepicker-rails
+      bootstrap-sass (~> 3.3.6)
+      chart-js-rails
+      fastclick-rails
+      flot-rails
+      font-awesome-sass (~> 4.7.0)
+      icheck-rails
+      jquery-rails
+      momentjs-rails
+      nprogress-rails
+      parsley-rails
+      railties (>= 4.0)
+      sass-rails (>= 5.0)
+      select2-rails
+      switchery-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -83,8 +103,6 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
-    datejs-rails (2.0.1)
-      railties (>= 3.1)
     erubi (1.6.1)
     execjs (2.7.0)
     fastclick-rails (1.0.1)
@@ -93,23 +111,6 @@ GEM
       jquery-rails
     font-awesome-sass (4.7.0)
       sass (>= 3.2)
-    gentelella-rails (0.1.5)
-      bootstrap-daterangepicker-rails
-      bootstrap-sass (~> 3.3.6)
-      chart-js-rails
-      datejs-rails
-      fastclick-rails
-      flot-rails
-      font-awesome-sass (~> 4.7.0)
-      icheck-rails
-      jquery-rails
-      momentjs-rails
-      nprogress-rails
-      parsley-rails
-      railties (>= 4.0)
-      sass-rails (>= 5.0)
-      select2-rails
-      switchery-rails
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     i18n (0.8.6)
@@ -245,7 +246,7 @@ DEPENDENCIES
   capistrano-rails
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
-  gentelella-rails
+  gentelella-rails!
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)

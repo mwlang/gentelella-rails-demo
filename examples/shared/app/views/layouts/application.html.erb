@@ -9,12 +9,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag 'application', media: 'all' %>
 
-    <title>Gentelella Alela!</title>
+    <title><%= yield :title %></title>
 
   </head>
 
   <body class="nav-md">
-    <%= yield %>
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <%= render partial: 'layouts/shared/leftnav' %>
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <%= render partial: 'layouts/shared/topnav' %>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <%= yield %>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <%= render partial: 'layouts/shared/footer' %>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
     <%= javascript_include_tag 'application' %>
   </body>
 </html>
